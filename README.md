@@ -54,6 +54,7 @@ The class include the following algorithms:
 - Load(file): load a graph, using Serializable in java
 
 ### Tests:
-To check 
+To check the shortestPathDist, shortestPath, Created the following graph;
+## ![alt text] (https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
 
 
