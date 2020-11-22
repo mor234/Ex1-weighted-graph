@@ -1,24 +1,31 @@
 # Weighted graph 
 ## This is an implementation of a not-directional (positive) weighted graph in java.
+## The graph is implemented as a hash map of nodes, each node contains the information about him and a Hash map of the node neighbors and the weight of the edge connecting them.
+was done as a student assignment. 
 the project contains the following files: 
 ### Interfaces:
 - weighted_graph.java
 - weighted_graph_algorithms.java
 - node_info.java
 ### Implementations:
-- WGraph_Algo.java
 - WGraph_DS.java
+- WGraph_Algo.java
 ### Comparator: 
 - NodesComparator.java
+### JUNIT tests:
+- WGraph_DSTest.java
+- WGraph_AlgoTest.java
 
 
 
 
 
 
-Implemented using 3 class, was done as a student assignment.  
+
+
+
 Also has 2 junit tests for each of the   
-The graph is implemented as a hash map of nodes containing ArrayLists ot their neighbors.  
+The graph is implemented as a hash map of nodes containing Hash map of the node neibores and the weight of the edge connecting them their neighbors.  
 The 3 class implements the corresponding interfaces: node_info, weighted_graph,     weighted_graph_algorithms (written by boaz benmoshe).  
  
 
