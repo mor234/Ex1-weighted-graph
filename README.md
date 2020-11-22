@@ -1,8 +1,8 @@
 # Weighted graph 
 ## This is an implementation of a not-directional (positive) weighted graph in java.
-' ' 'sh
-$ git clone https://github.com/mor234/Ex1-weighted-graph.git
-' ' '
+
+< $ git clone https://github.com/mor234/Ex1-weighted-graph.git
+
 
 was done as a student assignment. 
 the project contains the following files: 
@@ -62,7 +62,7 @@ To check the shortestPathDist, shortestPath, Created the following graph:
 
 
 
-Thedistance tree after preforming the dijkstra's algorithm on the graph:  
+The distance tree after preforming the dijkstra's algorithm on the graph:  
 ![alt text](images/distance%20tree.jpg)
 
 
