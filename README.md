@@ -18,7 +18,7 @@ the project contains the following files:
 - WGraph_AlgoTest.java
 
 
-## The graph is implemented as a hash map of nodes, each node contains the information about him and a Hash map of the node neighbors and the weight of the edge connecting them.
+> The graph is implemented as a hash map of nodes, each node contains the information about him and a Hash map of the node neighbors and the weight of the edge connecting them.
 
 
 
