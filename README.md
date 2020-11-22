@@ -1,6 +1,6 @@
 # Weighted graph 
 ## This is an implementation of a not-directional (positive) weighted graph in java.
-## The graph is implemented as a hash map of nodes, each node contains the information about him and a Hash map of the node neighbors and the weight of the edge connecting them.
+
 was done as a student assignment. 
 the project contains the following files: 
 ### Interfaces:
@@ -11,13 +11,14 @@ the project contains the following files:
 - WGraph_DS.java
 - WGraph_Algo.java
 ### Comparator: 
-- NodesComparator.java
+- NodesComparator.java (used for a part of an algorithm in class WGraph_Algo) 
+
 ### JUNIT tests:
 - WGraph_DSTest.java
 - WGraph_AlgoTest.java
 
 
-
+## The graph is implemented as a hash map of nodes, each node contains the information about him and a Hash map of the node neighbors and the weight of the edge connecting them.
 
 
 
