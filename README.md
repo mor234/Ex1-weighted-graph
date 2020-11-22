@@ -45,7 +45,7 @@ The class include the following algorithms:
 - clone(): deep copy of the graph
 - init(graph): shallow copy to initialize the WGraph_DS variable
 - isConnected()- check if the graph is connected, implemented using the bfs algorithm.
-- double shortestPathDist(int src, int dest): return what the shortest path distance between two nodes. implemented using dijkstra's algorithm
+- double shortestPathDist(int src, int dest): return what the shortest path distance between two nodes. implemented using Dijkstra's algorithm
 - List<node_info> shortestPath(int src, int dest): what the shortest path between two nodes, implemented using Dijkstra's algorithm
 - Save(file): save the graph, using Serializable in java
 - Load(file): load a graph, using Serializable in java
@@ -65,5 +65,8 @@ The distance tree after preforming the dijkstra's algorithm on the graph:
 For more explanations about the example and about the Dijkstra's algorithm:
 - geeksforgeeks: <https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/>
 - <https://www.coursera.org/lecture/advanced-data-structures/core-dijkstras-algorithm-2ctyF>
+
+About bfs algorithm:
+- <https://www.youtube.com/watch?v=oDqjPvD54Ss>
 
 
