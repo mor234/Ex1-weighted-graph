@@ -1,7 +1,8 @@
 # Weighted graph 
 ## This is an implementation of a not-directional (positive) weighted graph in java.
-
+'''sh
 $ git clone https://github.com/mor234/Ex1-weighted-graph.git
+'''
 
 was done as a student assignment. 
 the project contains the following files: 
@@ -51,5 +52,8 @@ The class include the following algorithms:
 - List<node_info> shortestPath(int src, int dest): what the shortest path between two nodes, implemented using dijkstra's algorithm
 - Save(file): save the graph, using Serializable in java
 - Load(file): load a graph, using Serializable in java
+
+### Tests:
+To check 
 
 
