@@ -42,10 +42,14 @@ removing a node, etc.
 - removeNode(int key): o(n), |V|=n, as all the edges should be removed
 
 **WGraph_Algo:**
-A class represent "regular" Graph Theory algorithms using a WGraph_DS variable. The class implement the following algorithms: 
-- clone()- copy of the graph-
-- initialize-
+This class representing an Undirected (positive) Weighted Graph Theory algorithms using a WGraph_DS variable.   
+The class include the following algorithms:   
+- clone(): deep copy of the graph
+- init(graph): shallow copy to initialize the WGraph_DS variable
 - isConnected()- check if the graph is connected, implemented using the bfs algorithm.
-- int shortestPathDist(int src, int dest)- return what the shortest path distance between two nodes, implemented using the bfs algorithm.
-- List<Node> shortestPath(int src, int dest)- what the shortest path between two nodes, implemented using the bfs algorithm.
+- double shortestPathDist(int src, int dest): return what the shortest path distance between two nodes. implemented using dijkstra's algorithm
+- List<node_info> shortestPath(int src, int dest): what the shortest path between two nodes, implemented using dijkstra's algorithm
+- Save(file): save the graph, using Serializable in java
+- Load(file): load a graph, using Serializable in java
+
 
