@@ -1,11 +1,8 @@
 # Weighted graph 
+> git clone https://github.com/mor234/Ex1-weighted-graph.git
 ## This is an implementation of a not-directional (positive) weighted graph in java.
-
-> $ git clone https://github.com/mor234/Ex1-weighted-graph.git
-
-
-was done as a student assignment. 
-the project contains the following files: 
+was done as a student assignment.   
+the project contains the following files:   
 ### Interfaces:
 - weighted_graph.java
 - weighted_graph_algorithms.java
