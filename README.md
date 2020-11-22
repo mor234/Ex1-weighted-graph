@@ -54,9 +54,15 @@ The class include the following algorithms:
 - Load(file): load a graph, using Serializable in java
 
 ### Tests:
-To check the shortestPathDist, shortestPath, Created the following graph;
-![alt text](images/weighted%20graph%20example.jpg)
-Thedistance tree after preforming the dijkstra's algorithm on the graph ;
+To check the shortestPathDist, shortestPath, Created the following graph:
+![alt text](images/weighted%20graph%20example.jpg)  
+
+
+
+
+
+
+Thedistance tree after preforming the dijkstra's algorithm on the graph:  
 ![alt text](images/distance%20tree.jpg)
 
 
