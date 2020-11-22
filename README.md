@@ -1,4 +1,4 @@
-"# Ex1-weighted-graph" 
+# Ex1-weighted-graph 
 This is an implementation of a not-directional (positive) weighted graph in java.
 Implemented using 3 class, was done as a student assignment.
 Also has 2 junit tests for each of the 
