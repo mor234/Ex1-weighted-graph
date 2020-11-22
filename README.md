@@ -1,5 +1,17 @@
 # weighted graph 
-> This is an implementation of a not-directional (positive) weighted graph in java.  
+## This is an implementation of a not-directional (positive) weighted graph in java.
+the project contains the following files:
+- NodesComparator.java
+- WGraph_Algo.java
+- WGraph_DS.java
+- node_info.java
+- weighted_graph.java
+- weighted_graph_algorithms.java
+
+
+
+
+
 Implemented using 3 class, was done as a student assignment.  
 Also has 2 junit tests for each of the   
 The graph is implemented as a hash map of nodes containing ArrayLists ot their neighbors.  
