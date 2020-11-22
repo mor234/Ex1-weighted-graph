@@ -1,14 +1,14 @@
-# weighted graph 
+# Weighted graph 
 ## This is an implementation of a not-directional (positive) weighted graph in java.
 the project contains the following files: 
-### interfaces:
+### Interfaces:
 - weighted_graph.java
 - weighted_graph_algorithms.java
 - node_info.java
-### implamntiations:
+### Implementations:
 - WGraph_Algo.java
 - WGraph_DS.java
-### comparator: 
+### Comparator: 
 - NodesComparator.java
 
 
