@@ -27,7 +27,7 @@ The class implements the corresponding interfaces: node_info, weighted_graph, we
 **WGraph_DS:**
 A class representing a weighted graph, implemented using HashMap,    
 allows access to variables in O(1).    
-Each node in the graph is a Node_info, implemented using inside class Node_info which implements the interface node_info.    
+Each node in the graph is a Node_info, implemented using inside class Node_info which implements the interface node_info.      
 The class allows basic operations on a graph in 0(1), such as:   
 - addNode(int key): adding a node to the graph
 - getNode(int key) 
