@@ -55,6 +55,6 @@ The class include the following algorithms:
 
 ### Tests:
 To check the shortestPathDist, shortestPath, Created the following graph;
-## ![alt text] (https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/)
+## ![alt text] (https://github.com/mor234/Ex1-weighted-graph/blob/main/images/distance%20tree.jpg)
 
 
