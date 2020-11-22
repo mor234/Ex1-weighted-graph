@@ -6,7 +6,7 @@ import java.util.List;
  * 1. init(graph);
  * 2. isConnected();
  * 3. double shortestPathDist(int src, int dest);
- * 4. List<node_data> shortestPath(int src, int dest);
+ * 4. List<node_info> shortestPath(int src, int dest);
  * 5. Save(file);
  * 6. Load(file);
  *
