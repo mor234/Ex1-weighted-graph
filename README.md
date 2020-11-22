@@ -26,53 +26,26 @@ The class implements the corresponding interfaces: node_info, weighted_graph, we
 
 **WGraph_DS:**
 A class representing a weighted graph, implemented using HashMap,    
-allows access to variables in O(1).    
+allows access to variables in O(1).  implemants the intrefaces weighted_graph, Serializable
 Each node in the graph is a Node_info, implemented using inside class Node_info which implements the interface node_info.       
 
 The class allows basic operations on a graph in 0(1), such as:   
 - addNode(int key): adding a node to the graph
 - getNode(int key) 
-- connect(int node1, int node2, double w):connecting two nodes
+- connect(int node1, int node2, double w): connecting two nodes
 - hasEdge(int node1, int node2)  
 etc.
 
 the following methods has different time comlexity:
-Collection<node_info> getV(int node_id): getting a collection of the node neighbors in  O(k) time, k - being the degree of node_id. happenes because goes through all the keys of the neibores in the hash map of the neighbors inside the no
+- Collection<node_info> getV(int node_id): getting a collection of the node neighbors in  O(k) time, k - being the degree of node_id. happens because goes through all the keys of the neibores in the hash map of the neighbors inside the no
 removing a node, etc.  
+- removeNode(int key): o(n), |V|=n, as all the edges should be removed
 
-
-
-    
-     This method return a pointer (shallow copy) for a
-     Collection representing all the nodes in the graph.
-      Note: this method should run in O(1) tim
-          public int nodeSize() O(1)
-
-    public int()-O(1)
-
-    public int getMC() O(1)
-     public void removeEdge(int node1, int node2)-O(1)
-   
-    
-    public Collection<node_info> getV();- This method return a pointer (shallow copy) for a
-     Collection representing all the nodes in the graph.
-
- public Collection<node_info> getV(int node_id);-O(k) time,This method returns a Collection containing all the
-     nodes connected to node_id k - being the degree of node_id.
-
-
-
-
-}
-
-NodeData:  
-A class representing a node in a graph.  
-Each node contains an a Hash map containing the keys of its neighbors.  
-
-Graph_Algo: A class represent "regular" Graph Theory algorithms using a Graph_DS variable. The class implement the following algorithms: 
-clone()- copy of the graph-
- initialize-
- -isConnected()- check if the graph is connected, implemented using the bfs algorithm.
--int shortestPathDist(int src, int dest)- return what the shortest path distance between two nodes, implemented using the bfs algorithm.
-List<Node> shortestPath(int src, int dest)- what the shortest path between two nodes, implemented using the bfs algorithm.
+**WGraph_Algo:**
+A class represent "regular" Graph Theory algorithms using a WGraph_DS variable. The class implement the following algorithms: 
+- clone()- copy of the graph-
+- initialize-
+- isConnected()- check if the graph is connected, implemented using the bfs algorithm.
+- int shortestPathDist(int src, int dest)- return what the shortest path distance between two nodes, implemented using the bfs algorithm.
+- List<Node> shortestPath(int src, int dest)- what the shortest path between two nodes, implemented using the bfs algorithm.
 
