@@ -56,6 +56,6 @@ The class include the following algorithms:
 ### Tests:
 To check the shortestPathDist, shortestPath, Created the following graph;
 
-![alt text](../images/distance%20tree.jpg)
+![alt text](images/distance%20tree.jpg)
 
 
